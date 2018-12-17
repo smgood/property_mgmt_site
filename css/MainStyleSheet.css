@@ -1,0 +1,257 @@
+Body {
+    margin:0px;
+    background-color: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: geosans;
+    src: url(../fonts/GeosansLight.ttf);
+}
+
+@font-face {
+    font-family: Radicalis;
+    src: url(../fonts/Ananda.ttf);
+}
+
+.center-page {
+    position: relative;
+    top:0;
+    margin: 0 auto;
+    height: auto;
+    width: 92%;
+    max-width: 92vh;
+    overflow: hidden;
+}
+
+.header {
+    position: relative;
+    top: 0;
+    width:100%;
+}
+
+.left {
+    position:relative;
+    float:left;
+    height: 100%;
+    width:45%;
+}
+
+.right {
+    position:relative;
+    float:right;
+    height: 100%;
+    width: 45%;
+}
+
+.title {
+    position: absolute;
+    width: 100%;
+    top: 20%;
+}
+
+.intro {
+    position: absolute;
+    width: 100%;
+    font-family: geosans;
+    text-align: justify;
+    bottom:6%;
+}
+
+.form-label {
+    position: absolute;
+    font-family: geosans;
+}
+
+.form-city {
+    top:26%;
+    left: 0;
+}
+
+.form-state {
+    top:26%;
+    left: 60%
+}
+
+.form-email {
+    top: 50%;
+    left: 0;
+}
+
+.underline {
+    position: absolute;
+    min-height: 1px;
+    height:0.5%;
+    background-color: black;
+}
+
+.underline-city {
+    top:38%;
+    left: 14%;
+    width: 44%;
+}
+
+.underline-state {
+    top:38%;
+    left: 77%;
+    width: 23%;
+}
+
+.underline-email {
+    top:62%;
+    left: 17%;
+    width: 83%;
+}
+
+.answer {
+    font-family: Radicalis;
+    position: absolute;
+    color: darkslategrey;
+}
+
+.answer-city {
+    top: 14%;
+    left: 17%;
+}
+
+.answer-state {
+    top: 14%;
+    left: 80%;
+}
+
+.answer-email {
+    top: 38%;
+    left: 17%;
+}
+
+.sort-container {
+    position:absolute;
+    height: 20%;
+    width: 38%;
+    bottom: 6%;
+    right: 0%;
+    text-align: right;
+}
+.sort-select {
+    height: 100%;
+    width: 54%;
+    background-color: #0caba1;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.graph_paper_container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index:2
+}
+
+.graph_paper_img {
+    position:relative;
+    width: 100%;
+    height: auto;
+    display:block;
+}
+
+.footer {
+    position: relative;
+    width:100%;
+}
+
+.footer-text {
+    position: relative;
+    top: 35%;
+    float: left;
+    width:33.33333%;
+}
+
+.left-text {
+    text-align:left;
+}
+
+.center-text {
+    text-align:center;
+}
+
+.right-text {
+    text-align:right;
+ }
+
+.ruler {
+    position: absolute;
+    pointer-events: none;
+    width: 100%;
+    top: 2%;
+    left: 2%;
+}
+
+.stain {
+    position: absolute;
+    pointer-events: none;
+    width: 52%;
+    top: 75.5%;
+    left: -30.5%;
+}
+
+.property_container_top {
+    position: absolute;
+    width: 100%;
+    height: 98.75%;
+    top: 1.25%;
+}
+
+.property_container_middle {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+.property {
+    height: 89%;
+    margin-top: 3.05%;
+    width: 31.1%;
+    float:left;
+    overflow: hidden;
+}
+
+.property:hover {
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.property:first-of-type {
+    margin-left: 3.32%;
+}
+
+.property_type {
+    text-align: center;
+    width:100%;
+    height: 12.4%;
+    margin: 0;
+}
+
+.property_address {
+    text-align: center;
+    width: 100%;
+    height: 10%;
+    margin: 1.5% 0 1.5% 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.property_img {
+    position: relative;
+    width: 79.8%;
+    height: 61.45%;
+    left: 9.65%;
+    top: 0%;
+    border: 1px solid black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
