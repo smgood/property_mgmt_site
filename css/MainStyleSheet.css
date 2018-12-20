@@ -214,6 +214,7 @@ Body {
     margin-top: 3.05%;
     width: 31.1%;
     float:left;
+    overflow: visible;
 }
 
 .property:hover {
