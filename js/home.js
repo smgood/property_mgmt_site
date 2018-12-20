@@ -28,8 +28,8 @@ $(document).ready(function() {
         $('.answer').css('font-size', pageWidth * .03 + 'px');
         $('.footer-text').css('font-size', pageWidth * .02 + 'px');
 
-        $('.sort-container').css('font-size', pageWidth * .0203 + 'px');
-        $('.sort-select').css('font-size', pageWidth * .0203 + 'px');
+        $('.sort-container').css('font-size', pageWidth * .0226 + 'px');
+        $('.sort-select').css('font-size', pageWidth * .0226 + 'px');
 
         var smaller = $( window ).width() < $( window ).height()
             ? $( window ).width()
