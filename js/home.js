@@ -22,14 +22,14 @@ $(document).ready(function() {
         $('.footer').height(pageWidth * 0.1);
 
         $('.intro').css('font-size', pageWidth * .0203 + 'px');
-        $('.form-label').css('font-size', pageWidth * .032 + 'px');
-        $('.property_type').css('font-size', pageWidth * .028 + 'px');
+        $('.form-label').css('font-size', pageWidth * .0203 + 'px');
+        $('.property_type').css('font-size', pageWidth * .025 + 'px');
         $('.property_address').css('font-size', pageWidth * .022 + 'px');
-        $('.answer').css('font-size', pageWidth * .03 + 'px');
+        $('.answer').css('font-size', pageWidth * .025 + 'px');
         $('.footer-text').css('font-size', pageWidth * .02 + 'px');
 
-        $('.sort-container').css('font-size', pageWidth * .0226 + 'px');
-        $('.sort-select').css('font-size', pageWidth * .0226 + 'px');
+        $('.sort-container').css('font-size', pageWidth * .022 + 'px');
+        $('.sort-select').css('font-size', pageWidth * .022 + 'px');
 
         var smaller = $( window ).width() < $( window ).height()
             ? $( window ).width()
