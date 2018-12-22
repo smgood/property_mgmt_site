@@ -105,14 +105,20 @@ $(document).ready(function() {
         $("#last_page").before(paperContainer);
 
         var paper = document.createElement("img");
-        paper.className="graph_paper_img";
+        //paper.className="graph_paper_img";
         paper.src="./images/assets/graph_paper_middle.png";
         paperContainer.append(paper);
 
-        var pageWidth = $('.center-page').width();
-        paper.width = pageWidth + 'px';
-        paper.height = pageWidth / 3.5772205783 + 'px';
-        alert('hi');
+        paper.onload = function () {
+            var pageWidth = $('.center-page').width();
+            var ratio = paper.height / paper.width;
+            paper.style.width = pageWidth + 'px';
+            paper.style.height = pageWidth * ratio + 'px';
+
+            paperContainer.style.width = pageWidth + 'px';
+            paperContainer.style.height = pageWidth * ratio + 'px';
+            alert("please work");
+        }
 
         var propertyContainer = document.createElement("div");
         propertyContainer.className="property_container_middle";
