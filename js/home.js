@@ -112,15 +112,19 @@ $(document).ready(function() {
 
         var paper = document.createElement("img");
         paper.src="./images/assets/graph_paper_middle.png";
-        var ratio = paper.height / paper.width;
-
-        paper.className="graph_paper_img";
         paperContainer.append(paper);
 
-        var pageWidth = $('.center-page').width();
-        paper.width = pageWidth;
-        paper.height = pageWidth * ratio;
-        
+        paper.onload = function() {
+            var ratio = paper.height / paper.width;
+
+            paper.className="graph_paper_img";
+
+            var pageWidth = $('.center-page').width();
+            paper.width = pageWidth;
+            paper.height = pageWidth * ratio;
+        }
+
+
         var propertyContainer = document.createElement("div");
         propertyContainer.className="property_container_middle";
         paperContainer.append(propertyContainer);
