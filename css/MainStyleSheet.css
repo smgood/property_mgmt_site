@@ -247,6 +247,7 @@ Body {
     height: 61.45%;
     left: 9.65%;
     top: 0%;
+    border: 1px solid black;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;

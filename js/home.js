@@ -18,6 +18,8 @@ $(document).ready(function() {
 
     function resize () {
         var pageWidth = $('.center-page').width();
+        var lastpage = $('#last_page').height();
+        alert (pageWidth / lastpage );
         $('.header').height(pageWidth * 0.25);
         $('.footer').height(pageWidth * 0.1);
 
