@@ -109,6 +109,10 @@ $(document).ready(function() {
         paper.src="./images/assets/graph_paper_middle.png";
         paperContainer.append(paper);
 
+        var pageWidth = $('.center-page').width();
+        paper.width = pageWidth;
+        paper.height = pageWidth / 3.5772205783;
+
         var propertyContainer = document.createElement("div");
         propertyContainer.className="property_container_middle";
         paperContainer.append(propertyContainer);
