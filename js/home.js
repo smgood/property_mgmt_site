@@ -18,9 +18,6 @@ $(document).ready(function() {
 
     function resize () {
         var pageWidth = $('.center-page').width();
-
-        var lastpage = $('#last_page');
-        alert ("Test 2 " + lastpage.width() / lastpage.height() );
         $('.header').height(pageWidth * 0.25);
         $('.footer').height(pageWidth * 0.1);
 
@@ -91,8 +88,11 @@ $(document).ready(function() {
         $("#last_page").before(paperContainer);
 
         var paper = document.createElement("img");
-        paper.className="graph_paper_img";
         paper.src="./images/assets/graph_paper_top.png";
+
+        alert(paper.width / paper.height);
+        paper.className="graph_paper_img";
+
         paperContainer.append(paper);
 
         var propertyContainer = document.createElement("div");
