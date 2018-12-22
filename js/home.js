@@ -20,7 +20,7 @@ $(document).ready(function() {
         var pageWidth = $('.center-page').width();
 
         var lastpage = $('#last_page');
-        alert (lastpage.width() / lastpage.height() );
+        alert ("Test 2 " + lastpage.width() / lastpage.height() );
         $('.header').height(pageWidth * 0.25);
         $('.footer').height(pageWidth * 0.1);
 
