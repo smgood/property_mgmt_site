@@ -236,7 +236,6 @@ Body {
 .property_address {
     text-align: center;
     width: 100%;
-    height: 10%;
     margin: 1.5% 0 1.5% 0;
     white-space: nowrap;
     overflow: hidden;
