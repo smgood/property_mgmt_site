@@ -110,8 +110,9 @@ $(document).ready(function() {
         paperContainer.append(paper);
 
         var pageWidth = $('.center-page').width();
-        paper.width = pageWidth;
-        paper.height = pageWidth / 3.5772205783;
+        paper.width = pageWidth + 'px';
+        paper.height = pageWidth / 3.5772205783 + 'px';
+        alert('hi');
 
         var propertyContainer = document.createElement("div");
         propertyContainer.className="property_container_middle";
