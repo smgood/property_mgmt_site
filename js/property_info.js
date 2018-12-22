@@ -62,4 +62,49 @@ var propertyInfo = [
     "type": "House",
     "image": "11400_dona_lola.JPG",
     },
+
+
+
+
+    {
+    "street": "11400 Dona Lola Dr",
+    "city": "Studio City, CA 91604",
+    "type": "House",
+    "image": "11400_dona_lola.JPG",
+    },{
+    "street": "11400 Dona Lola Dr",
+    "city": "Studio City, CA 91604",
+    "type": "House",
+    "image": "11400_dona_lola.JPG",
+    },{
+    "street": "11400 Dona Lola Dr",
+    "city": "Studio City, CA 91604",
+    "type": "House",
+    "image": "11400_dona_lola.JPG",
+    },{
+    "street": "11400 Dona Lola Dr",
+    "city": "Studio City, CA 91604",
+    "type": "House",
+    "image": "11400_dona_lola.JPG",
+    },{
+    "street": "11400 Dona Lola Dr",
+    "city": "Studio City, CA 91604",
+    "type": "House",
+    "image": "11400_dona_lola.JPG",
+    },{
+    "street": "11400 Dona Lola Dr",
+    "city": "Studio City, CA 91604",
+    "type": "House",
+    "image": "11400_dona_lola.JPG",
+    },{
+    "street": "11400 Dona Lola Dr",
+    "city": "Studio City, CA 91604",
+    "type": "House",
+    "image": "11400_dona_lola.JPG",
+    },{
+    "street": "11400 Dona Lola Dr",
+    "city": "Studio City, CA 91604",
+    "type": "House",
+    "image": "11400_dona_lola.JPG",
+    },
 ];
