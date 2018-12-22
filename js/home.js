@@ -89,11 +89,9 @@ $(document).ready(function() {
 
         var paper = document.createElement("img");
         paper.src="./images/assets/graph_paper_top.png";
-
-        alert(paper.width / paper.height);
         paper.className="graph_paper_img";
-
         paperContainer.append(paper);
+        alert("test" + paper.width / paper.height);
 
         var propertyContainer = document.createElement("div");
         propertyContainer.className="property_container_top";
