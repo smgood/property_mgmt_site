@@ -214,7 +214,6 @@ Body {
     margin-top: 3.05%;
     width: 31.1%;
     float:left;
-    overflow: hidden;
 }
 
 .property:hover {
@@ -236,7 +235,6 @@ Body {
 .property_address {
     text-align: center;
     width: 100%;
-    height: 10%;
     margin: 1.5% 0 1.5% 0;
     white-space: nowrap;
     overflow: hidden;
