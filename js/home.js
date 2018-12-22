@@ -31,6 +31,8 @@ $(document).ready(function() {
         $('.sort-container').css('font-size', pageWidth * .022 + 'px');
         $('.sort-select').css('font-size', pageWidth * .022 + 'px');
 
+        $('.property_img').css('border', (pageWidth * .002) + 'px solid black');
+
         var smaller = $( window ).width() < $( window ).height()
             ? $( window ).width()
             : $( window ).height();
