@@ -62,4 +62,10 @@ var propertyInfo = [
     "type": "House",
     "image": "11400_dona_lola.JPG",
     },
+    {
+    "street": "new street",
+    "city": "new city",
+    "type": "Mansion",
+    "image": "11400_dona_lola.JPG",
+    },
 ];
