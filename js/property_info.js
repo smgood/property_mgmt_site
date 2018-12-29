@@ -51,8 +51,8 @@ var propertyInfo = [
 	"image": "3701_cahuenga.JPG",
 	},
     {
-    "street": "4915 & 4917 Whitsett Ave",
-    "city": "Studio City, CA 91694",
+    "street": "4915 Whitsett Ave",
+    "city": "Studio City, CA 91607",
     "type": "Apartment",
     "image": "4915_whitsett.JPG",
     },
@@ -61,5 +61,11 @@ var propertyInfo = [
     "city": "Studio City, CA 91604",
     "type": "House",
     "image": "11400_dona_lola.JPG",
+    },
+    {
+    "street": "1164 S. Fairfax Blvd.",
+    "city": "Los Angeles, CA ???",
+    "type": "Apartment",
+    "image": "1164_s_fairfax.JPG",
     },
 ];
