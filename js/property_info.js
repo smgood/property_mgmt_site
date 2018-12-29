@@ -63,8 +63,8 @@ var propertyInfo = [
     "image": "11400_dona_lola.JPG",
     },
     {
-    "street": "1164 S. Fairfax Blvd.",
-    "city": "Los Angeles, CA ???",
+    "street": "1164 South Fairfax Ave",
+    "city": "Los Angeles, CA 90019",
     "type": "Apartment",
     "image": "1164_s_fairfax.JPG",
     },
